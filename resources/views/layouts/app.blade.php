@@ -22,34 +22,9 @@
     <!--Favicon-->
     <link
         rel="shortcut icon"
-        href="images/favicon.ico"
+        href="{{ Vite::asset('resources/images/favicon.ico') }}"
         title="Favicon"
     />
-
-    <!-- Main CSS Files -->
-    <link
-        rel="stylesheet"
-        href="css/style.css"
-    >
-
-    <!-- Namari Color CSS -->
-    <link
-        rel="stylesheet"
-        href="css/namari-color.css"
-    >
-
-    <!--Icon Fonts - Font Awesome Icons-->
-    <link
-        rel="stylesheet"
-        href="css/font-awesome.min.css"
-    >
-
-    <!-- Animate CSS-->
-    <link
-        href="css/animate.css"
-        rel="stylesheet"
-        type="text/css"
-    >
 
     <!--Google Webfonts-->
     <link
@@ -58,11 +33,36 @@
         type='text/css'
     >
 
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    {{-- prettier-ignore --}}
+    @vite([
+    'resources/css/style.css',
+    'resources/css/namari-color.css',
+    'resources/css/font-awesome.min.css',
+    'resources/css/animate.css',
+    'resources/js/app.js',
+    'resources/js/jquery.1.8.3.min.js',
+    'resources/js/wow.min.js',
+    'resources/js/featherlight.min.js',
+    'resources/js/featherlight.gallery.min.js',
+    'resources/js/jquery.enllax.min.js',
+    'resources/js/jquery.scrollUp.min.js',
+    'resources/js/jquery.easing.min.js',
+    'resources/js/jquery.stickyNavbar.min.js',
+    'resources/js/jquery.waypoints.min.js',
+    'resources/js/images-loaded.min.js',
+    'resources/js/lightbox.min.js',
+    'resources/js/site.js'
+    ])
 </head>
 
 <body class="antialiased">
+    <x-ui.partials.preloader />
+
+    <x-ui.partials.header />
+
     {{ $slot }}
+
+    <x-ui.partials.footer />
 </body>
 
 </html>
