@@ -64,13 +64,7 @@
             </div>
 
             <!--Call to Action-->
-            <a
-                href="#"
-                class="button"
-            >
-                START CREATING TODAY
-            </a>
-            <!--End Call to Action-->
+            <x-ui.buttons.cta-button />
 
         </div>
 

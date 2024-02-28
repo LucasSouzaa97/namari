@@ -115,59 +115,71 @@
             >
 
                 <a
-                    href="images/gallery-images/gallery-image-1.jpg"
+                    href="{{ Vite::asset('resources/images/gallery-images/gallery-image-1.jpg') }}"
                     data-featherlight="image"
                     class="col-3 wow fadeIn"
                     data-wow-delay="0.1s"
-                ><img
-                        src="images/gallery-images/gallery-image-1.jpg"
+                >
+                    <img
+                        src="{{ Vite::asset('resources/images/gallery-images/gallery-image-1.jpg') }}"
                         alt="Landing Page"
-                    /></a>
+                    />
+                </a>
                 <a
-                    href="images/gallery-images/gallery-image-2.jpg"
+                    href="{{ Vite::asset('resources/images/gallery-images/gallery-image-2.jpg') }}"
                     data-featherlight="image"
                     class="col-3 wow fadeIn"
                     data-wow-delay="0.3s"
-                ><img
-                        src="images/gallery-images/gallery-image-2.jpg"
+                >
+                    <img
+                        src="{{ Vite::asset('resources/images/gallery-images/gallery-image-2.jpg') }}"
                         alt="Landing Page"
-                    /></a>
+                    />
+                </a>
                 <a
-                    href="images/gallery-images/gallery-image-3.jpg"
+                    href="{{ Vite::asset('resources/images/gallery-images/gallery-image-3.jpg') }}"
                     data-featherlight="image"
                     class="col-3 wow fadeIn"
                     data-wow-delay="0.5s"
-                ><img
-                        src="images/gallery-images/gallery-image-3.jpg"
+                >
+                    <img
+                        src="{{ Vite::asset('resources/images/gallery-images/gallery-image-3.jpg') }}"
                         alt="Landing Page"
-                    /></a>
+                    />
+                </a>
                 <a
-                    href="images/gallery-images/gallery-image-4.jpg"
+                    href="{{ Vite::asset('resources/images/gallery-images/gallery-image-4.jpg') }}"
                     data-featherlight="image"
                     class="col-3 wow fadeIn"
                     data-wow-delay="1.1s"
-                ><img
-                        src="images/gallery-images/gallery-image-4.jpg"
+                >
+                    <img
+                        src="{{ Vite::asset('resources/images/gallery-images/gallery-image-4.jpg') }}"
                         alt="Landing Page"
-                    /></a>
+                    />
+                </a>
                 <a
-                    href="images/gallery-images/gallery-image-5.jpg"
+                    href="{{ Vite::asset('resources/images/gallery-images/gallery-image-5.jpg') }}"
                     data-featherlight="image"
                     class="col-3 wow fadeIn"
                     data-wow-delay="0.9s"
-                ><img
-                        src="images/gallery-images/gallery-image-5.jpg"
+                >
+                    <img
+                        src="{{ Vite::asset('resources/images/gallery-images/gallery-image-5.jpg') }}"
                         alt="Landing Page"
-                    /></a>
+                    />
+                </a>
                 <a
-                    href="images/gallery-images/gallery-image-6.jpg"
+                    href="{{ Vite::asset('resources/images/gallery-images/gallery-image-6.jpg') }}"
                     data-featherlight="image"
                     class="col-3 wow fadeIn"
                     data-wow-delay="0.7s"
-                ><img
-                        src="images/gallery-images/gallery-image-6.jpg"
+                >
+                    <img
+                        src="{{ Vite::asset('resources/images/gallery-images/gallery-image-6.jpg') }}"
                         alt="Landing Page"
-                    /></a>
+                    />
+                </a>
 
             </aside>
             <!--End of Gallery-->
@@ -221,17 +233,19 @@
                             data-videosite="youtube"
                             class="button video link-lightbox"
                         >
-                            WATCH VIDEO <i
+                            WATCH VIDEO
+                            <i
                                 class="fa fa-play"
                                 aria-hidden="true"
-                            ></i>
+                            >
+                            </i>
                         </a>
                     </div>
                     <!--End Content Right Side-->
 
                     <div class="col-3">
                         <img
-                            src="images/dancer.jpg"
+                            src="{{ Vite::asset('resources/images/dancer.jpg') }}"
                             alt="Dancer"
                         />
                     </div>
@@ -258,7 +272,7 @@
                     <!--User Testimonial-->
                     <blockquote class="col-3 testimonial classic">
                         <img
-                            src="images/user-images/user-1.jpg"
+                            src="{{ Vite::asset('resources/images/user-images/user-1.jpg') }}"
                             alt="User"
                         />
                         <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -271,7 +285,7 @@
                     <!--User Testimonial-->
                     <blockquote class="col-3 testimonial classic">
                         <img
-                            src="images/user-images/user-2.jpg"
+                            src="{{ Vite::asset('resources/images/user-images/user-2.jpg') }}"
                             alt="User"
                         />
                         <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -284,7 +298,7 @@
                     <!--User Testimonial-->
                     <blockquote class="col-3 testimonial classic">
                         <img
-                            src="images/user-images/user-3.jpg"
+                            src="{{ Vite::asset('resources/images/user-images/user-3.jpg') }}"
                             alt="User"
                         />
                         <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -325,7 +339,7 @@
                             class="col-3"
                         >
                             <img
-                                src="images/company-images/company-logo1.png"
+                                src="{{ Vite::asset('resources/images/company-images/company-logo1.png') }}"
                                 alt="Company"
                             />
                             <div class="client-overlay"><span>Tree</span></div>
@@ -335,7 +349,7 @@
                             class="col-3"
                         >
                             <img
-                                src="images/company-images/company-logo2.png"
+                                src="{{ Vite::asset('resources/images/company-images/company-logo2.png') }}"
                                 alt="Company"
                             />
                             <div class="client-overlay"><span>Fingerprint</span></div>
@@ -345,7 +359,7 @@
                             class="col-3"
                         >
                             <img
-                                src="images/company-images/company-logo3.png"
+                                src="{{ Vite::asset('resources/images/company-images/company-logo3.png') }}"
                                 alt="Company"
                             />
                             <div class="client-overlay"><span>The Man</span></div>
@@ -355,7 +369,7 @@
                             class="col-3"
                         >
                             <img
-                                src="images/company-images/company-logo4.png"
+                                src="{{ Vite::asset('resources/images/company-images/company-logo4.png') }}"
                                 alt="Company"
                             />
                             <div class="client-overlay"><span>Mustache</span></div>
@@ -365,7 +379,7 @@
                             class="col-3"
                         >
                             <img
-                                src="images/company-images/company-logo5.png"
+                                src="{{ Vite::asset('resources/images/company-images/company-logo5.png') }}"
                                 alt="Company"
                             />
                             <div class="client-overlay"><span>Goat</span></div>
@@ -375,7 +389,7 @@
                             class="col-3"
                         >
                             <img
-                                src="images/company-images/company-logo6.png"
+                                src="{{ Vite::asset('resources/images/company-images/company-logo6.png') }}"
                                 alt="Company"
                             />
                             <div class="client-overlay"><span>Justice</span></div>
@@ -385,7 +399,7 @@
                             class="col-3"
                         >
                             <img
-                                src="images/company-images/company-logo7.png"
+                                src="{{ Vite::asset('resources/images/company-images/company-logo7.png') }}"
                                 alt="Company"
                             />
                             <div class="client-overlay"><span>Ball</span></div>
@@ -395,7 +409,7 @@
                             class="col-3"
                         >
                             <img
-                                src="images/company-images/company-logo8.png"
+                                src="{{ Vite::asset('resources/images/company-images/company-logo8.png') }}"
                                 alt="Company"
                             />
                             <div class="client-overlay"><span>Cold</span></div>
@@ -406,7 +420,7 @@
                             class="col-3"
                         >
                             <img
-                                src="images/company-images/company-logo9.png"
+                                src="{{ Vite::asset('resources/') }}images/company-images/company-logo9.png"
                                 alt="Company"
                             />
                             <div class="client-overlay"><span>Cold</span></div>
