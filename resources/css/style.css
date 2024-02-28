@@ -128,7 +128,7 @@ figure {
 }
 
 #wrapper {
-    margin:0 15px;
+    margin: 0 15px;
     padding: 15px 0;
     position: relative;
 }
@@ -393,15 +393,15 @@ section {
 /* Play Button */
 
 #video-section {
-    position:relative;
+    position: relative;
 }
 
 .play-video {
-    height:110px;
-    position:absolute;
-    top:50%;
-    margin-top:-110px;
-    width:100%;
+    height: 110px;
+    position: absolute;
+    top: 50%;
+    margin-top: -110px;
+    width: 100%;
 }
 
 .play-icon {
@@ -441,7 +441,7 @@ section {
     text-transform: none;
     display: block;
     -webkit-font-smoothing: antialiased;
-    color:#fff;
+    color: #fff;
 }
 
 .play-video .play-icon {
@@ -510,7 +510,7 @@ section {
     background: #fff;
     box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.2);
     position: fixed !important;
-    left:0;
+    left: 0;
 }
 
 #header.nav-solid nav a {
@@ -800,7 +800,6 @@ h6 {
 }
 
 
-
 /*------------------------------------------------------------------------------------------*/
 /* 5. Content Elements */
 /*------------------------------------------------------------------------------------------*/
@@ -835,7 +834,7 @@ h6 {
 /* Icon Left*/
 
 .icon-left .icon {
-    left: 15;
+    left: 15px;
 }
 
 .icon-left .icon-block-description {
@@ -845,7 +844,7 @@ h6 {
 /* Icon Right */
 
 .icon-right .icon {
-    right: 15;
+    right: 15px;
 }
 
 .icon-right .icon-block-description {
@@ -1131,7 +1130,7 @@ blockquote {
     .featherlight .featherlight-image {
         /* styling */
         max-height: 100%;
-        max-width:100%;
+        max-width: 100%;
     }
 
     .featherlight-iframe .featherlight-content {
@@ -1274,10 +1273,10 @@ blockquote {
 /* --------- 6.5 Video ---------- */
 
 #video-box {
-    color:#fff;
-    position:relative;
-    overflow:hidden;
-    text-align:center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
 }
 
 .video_container, .easyContainer {
@@ -1396,8 +1395,7 @@ blockquote {
 .client-overlay {
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
-    top;
-    0;
+    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
@@ -1446,19 +1444,19 @@ blockquote {
 }
 
 .pricing-block li:last-of-type {
-    border:none;
+    border: none;
 }
 
 .pricing-block h3 {
-    font-size:17px;
-    text-transform:uppercase;
-    padding-bottom:0;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding-bottom: 0;
 }
 
 .pricing-sub {
     font-style: italic;
-    color:#ccc;
-    margin:0 0 25px 0;
+    color: #ccc;
+    margin: 0 0 25px 0;
 }
 
 /*Price*/
@@ -1483,13 +1481,13 @@ blockquote {
     font-size: 22px;
 }
 
-.pricing  p {
-    font-style:italic;
-    color:#b4b4b4;
-    line-height:auto;
-    margin:0;
+.pricing p {
+    font-style: italic;
+    color: #b4b4b4;
+    /*TODO verificar se esta funcionando normalmente*/
+    line-height: normal;
+    margin: 0;
 }
-
 
 
 /*------------------------------------------------------------------------------------------*/
@@ -2105,12 +2103,12 @@ blockquote {
 @media (max-width: 480px) {
 
     #wrapper {
-        margin:0;
-        padding:0;
+        margin: 0;
+        padding: 0;
     }
 
     .page-border, #scrollUp, #scrollUp:before {
-        display:none;
+        display: none;
     }
 
     .row {
@@ -2155,7 +2153,6 @@ blockquote {
     }
 
     /*-----------------Sections-----------------*/
-
     /* Call to Action*/
     .call-to-action {
         padding-bottom: 25px;
@@ -2198,12 +2195,12 @@ blockquote {
 @media (min-width: 480px) and (max-width: 767px) {
 
     #wrapper {
-        margin:0;
-        padding:0;
+        margin: 0;
+        padding: 0;
     }
 
     .page-border, #scrollUp, #scrollUp:before {
-        display:none;
+        display: none;
     }
 
 
@@ -2229,7 +2226,7 @@ blockquote {
         position: absolute;
         top: 40px;
         right: 60px;
-        padding-top:3px;
+        padding-top: 3px;
         padding-right: 5px;
     }
 
@@ -2255,7 +2252,6 @@ blockquote {
     }
 
     /*-----------------Sections-----------------*/
-
     /* Video */
     .slvj-lightbox iframe, .slvj-lightbox object, .slvj-lightbox embed {
         height: 370px !important;
@@ -2279,12 +2275,12 @@ blockquote {
 @media (min-width: 768px) and (max-width: 1024px) {
 
     #wrapper {
-        margin:0;
-        padding:0;
+        margin: 0;
+        padding: 0;
     }
 
     .page-border {
-        display:none;
+        display: none;
     }
 
     .big-padding-top {
@@ -2297,7 +2293,7 @@ blockquote {
         position: absolute;
         top: 40px;
         right: 60px;
-        padding-top:3px;
+        padding-top: 3px;
         padding-right: 5px;
     }
 
@@ -2319,7 +2315,6 @@ blockquote {
     }
 
     /*-----------------Sections-----------------*/
-
     /* Video */
     .slvj-lightbox iframe, .slvj-lightbox object, .slvj-lightbox embed {
         height: 432px !important;
