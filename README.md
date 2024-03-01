@@ -12,11 +12,11 @@
 
 ## Layout
 
-![tela 1](imagem)
+![tela 1](/resources/images/demo/image1.png)
 
-![tela 2](imagem)
+![tela 2](/resources/images/demo/image2.png)
 
-![tela 3](imagem)
+![tela 3](/resources/images/demo/image3.png)
 
 ## Demonstração
 
@@ -40,14 +40,11 @@ $ cp .env.example .env
 # Gerar chave Laravel da aplicação
 $ php artisan key:generate
 
-# Executar as Laravel Migrations
-$ php artisan migrate
+# Inicia o servidor de desenvolvimento do Vite
+$ npm run dev
 
 # Iniciar o Laravel Server
 $ php artisan serve
 
 # acessar a aplicação em http://localhost:8000
 ```
-### Observações:
-
-- `Criar banco de dados local e conectar junto a aplicação via arquivo .env`
