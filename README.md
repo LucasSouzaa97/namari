@@ -1,6 +1,6 @@
 # Namari
 
-![Logo](imagem)
+![Logo](/resources/images/logo.png)
 
 #### Projeto de conversão do `template HTML - Namari` by [shapingrain](https://www.shapingrain.com) para `Blade Components`
 
